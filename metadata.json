@@ -1,0 +1,12 @@
+{
+  "name": "beergeek/facecount",
+  "version": "0.1.0",
+  "author": "beergeek",
+  "summary": "Retrieve node countr from PuppetDB",
+  "license": "Apache-2.0",
+  "source": "https://github.com/beergeek/facecount",
+  "project_page": "https://github.com/beergeek/facecount",
+  "issues_url": "https://github.com/beergeek/facecount/issues",
+  "dependencies": [
+  ]
+}
