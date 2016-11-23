@@ -15,6 +15,7 @@ A Puppet Face to retrieve the node count from PuppetDB.
 ## Setup
 
 Install the module via Code Manager or r10k and then run Puppet.
+If you would like to gather historical node count statistics to a file, include the provided class `facecount` on your Puppet Enterprise Master either through Puppet Code or the [Node Classifier](https://docs.puppet.com/pe/latest/console_classes_groups.html) and statistics will be collected into the file `/var/log/puppetlabs/node_count.txt` for you and updated every 30 minutes.
 
 ## Usage
 
