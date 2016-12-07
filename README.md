@@ -16,6 +16,13 @@ A Puppet Face to retrieve the node count from PuppetDB.
 
 Install the module via Code Manager or r10k and then run Puppet.
 
+## Custom fact
+This module includes a custom fact to expose node counts through the Puppet Enterprise Console.  Node counts are available on the Puppet Enterprise Master/Master of Masters on it's inventory page:
+
+![node count on master](image/console_master.png)
+
+This information only makes sense to display for the Puppet Master, so regular agent nodes will display the message 'Available on Puppet Master/MoM only' instead on their individual inventory pages.
+
 ## Usage
 
 Once installed and puppet has run, you will have a new action for the `puppet node` subcommand on the Puppet master:
