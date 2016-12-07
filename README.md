@@ -10,7 +10,13 @@
 
 ## Overview
 
-A Puppet Face to retrieve the node count from PuppetDB.
+A Puppet Module providing the ability for customer to easily track their Puppet Enterprise node counts.
+
+### Features
+
+* Puppet Face to retrieve the node count from PuppetDB
+* Custom fact to expose the same information in the console
+* Puppet Class to gather historical node counts to a log file
 
 ## Setup
 
