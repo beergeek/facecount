@@ -1,12 +1,48 @@
 {
-  "name": "beergeek/facecount",
-  "version": "0.1.0",
+  "name": "beergeek-facecount",
+  "version": "0.1.1",
   "author": "beergeek",
-  "summary": "Retrieve node countr from PuppetDB",
+  "summary": "Retrieve node count from PuppetDB",
   "license": "Apache-2.0",
   "source": "https://github.com/beergeek/facecount",
   "project_page": "https://github.com/beergeek/facecount",
   "issues_url": "https://github.com/beergeek/facecount/issues",
   "dependencies": [
-  ]
+
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Debian",
+      "operatingsystemrelease": [
+        "8"
+      ]
+    },
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "7.0"
+      ]
+    },
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "16.04"
+      ]
+    },
+    {
+      "operatingsystem": "windows",
+      "operatingsystemrelease": [
+        "2012 R2"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 4.7.0 < 6.0.0"
+    }
+  ],
+  "pdk-version": "1.4.1",
+  "template-url": "file:///opt/puppetlabs/pdk/share/cache/pdk-templates.git",
+  "template-ref": "1.4.1-0-g52adbbb"
 }
