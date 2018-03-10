@@ -35,7 +35,7 @@ Puppet::Face.define(:node, '0.0.1') do
       end
 
       connection = Puppet::Network::HttpPool.http_instance(server, port)
-      unless result = PSON.load(connection.request_get('#{endpoint}', { 'Accept' => 'application/json' }).body)
+      unless result = PSON.load(connection.request_get("#{endpoint}", { 'Accept' => 'application/json' }).body)
         raise "Error parsing json output of puppet search #{filtered}"
       end
       puts "Node count: #{result['Value']}"
